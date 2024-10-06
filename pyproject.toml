@@ -1,0 +1,12 @@
+[project]
+name = "workspace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch==2.0.1+cu117",
+]
+
+[tool.uv]
+extra-index-url = ["https://download.pytorch.org/whl/cu117"]
